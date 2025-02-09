@@ -8,6 +8,7 @@
 ;                               |___/                                
 ; Version 250802 - by Gooseheaded
 
+; This script is for AutoHotKey v1.
 ; Run this script before running StarCraft: Brood War.
 
 #Persistent
