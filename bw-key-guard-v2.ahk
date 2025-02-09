@@ -6,7 +6,7 @@
 ; |____/   \/  \/     |_|\_\___|\__, |  \_____|\__,_|\__,_|_|  \__,_|
 ;                                __/ |                               
 ;                               |___/                                
-; Version 250802 - by Gooseheaded
+; Version 250902 - by Gooseheaded
 
 ; This script is for AutoHotKey v2.
 ; Run this script before running StarCraft: Brood War.
@@ -15,6 +15,8 @@ Persistent()
 #HotIf WinActive("ahk_exe StarCraft.exe")
 ^q::return    ; Disable Ctrl + Q
 !q::return    ; Disable Alt + Q
+^x::return    ; Disable Ctrl + X
+!x::return    ; Disable Alt + X
 LWin::return  ; Disable Left Windows Key
 RWin::return  ; Disable Right Windows Key
 F1::return    ; Disable F1
